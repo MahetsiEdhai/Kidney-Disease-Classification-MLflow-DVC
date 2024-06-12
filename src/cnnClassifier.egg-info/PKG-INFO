@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/MahetsiEdhai/m4h3t51-0lv3r4-Classification-Deep-Learning-Project
+Author: MahetsiEdhai
+Author-email: daniel.olvera.v1905@gmail.com
+Project-URL: Bug Tracker, https://github.com/MahetsiEdhai/m4h3t51-0lv3r4-Classification-Deep-Learning-Project/issues
+
+# Kidney-Disease-Classification-MLflow-DVC
+---
+
+# Proyecto de MLops para la detección de tumores renales
+
+Este proyecto implementa un sistema de Machine Learning Operations (MLOps) utilizando MLflow y DVC para desarrollar y gestionar un clasificador destinado a la detección automática de tumores renales a partir de datos médicos.
+
+## Objetivo
+El objetivo principal de este proyecto es construir un pipeline automatizado que permita entrenar, validar y desplegar modelos de aprendizaje automático de manera eficiente y reproducible. Esto facilita la colaboración entre equipos multidisciplinarios, garantiza la trazabilidad de los experimentos y optimiza el ciclo de vida de desarrollo de modelos.
+
+## Tecnologías Utilizadas
+- **MLflow**: Para el seguimiento de experimentos, gestión de modelos y despliegue de modelos en producción.
+- **DVC (Data Version Control)**: Para el control de versiones de datos y la reproducibilidad de los experimentos.
+- **Python**: Lenguaje de programación utilizado para la implementación del clasificador y la integración con las herramientas de MLOps.
+- **Scikit-learn, TensorFlow, u otras bibliotecas de aprendizaje automático**: Utilizadas para la construcción y evaluación del modelo de detección de tumores renales.
+
+## Estructura del Repositorio
+- **`src/`**: Contiene el código fuente del clasificador y los scripts de entrenamiento.
+- **`data/`**: Directorio para almacenar los conjuntos de datos utilizados.
+- **`models/`**: Directorio donde se guardan los modelos entrenados.
+- **`experiments/`**: Registro de experimentos utilizando MLflow.
+- **`README.md`**: Este archivo, proporcionando una visión general del proyecto, instrucciones para configurar el entorno de desarrollo y ejecutar los scripts, y detalles sobre cómo contribuir y reportar problemas.
+
+## Configuración y Uso
+Para comenzar con el proyecto:
+1. Clona este repositorio en tu máquina local.
+2. Configura el entorno de desarrollo según se indica en `README.md`.
+3. Sigue las instrucciones para entrenar modelos, realizar experimentos y desplegar modelos en producción.
+
+Este proyecto es un ejercicio en la implementación de prácticas de MLOps para aplicaciones de salud, contribuyendo así al desarrollo de soluciones más eficaces y accesibles para la detección temprana de enfermedades.
+
+---
+
+Josué Olvera (m4h3t51)
